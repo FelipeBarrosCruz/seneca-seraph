@@ -1,0 +1,42 @@
+{
+  "name": "seneca-seraph",
+  "version": "1.0.0",
+  "description": "Seneca plugin for seraph lib to connect a neo4j database",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -e development -v -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeBarrosCruz/seneca-seraph.git"
+  },
+  "keywords": [
+    "seneca",
+    "plugin",
+    "seraph",
+    "neo4j",
+    "graphdb"
+  ],
+  "author": "FelipeBarrosCruz <felipe.barros.pt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FelipeBarrosCruz/seneca-seraph/issues"
+  },
+  "homepage": "https://github.com/FelipeBarrosCruz/seneca-seraph#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "eslint-config-seneca": "^3.0.0",
+    "eslint-plugin-hapi": "^4.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "lab": "^15.1.2",
+    "seneca": "^3.4.3"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "seraph": "^0.15.3"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
